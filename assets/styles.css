@@ -1,3 +1,7 @@
+*/ {
+  box-sizing: border-box;
+}
+
 
 
 body {
@@ -8,36 +12,229 @@ font-family: Helvetica, Arial, sans-serif;
 
 }
 
-header {
+.topimg {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 200px;
+  padding: 10px 15px auto auto
+  
+}
+
+
+ header {
     padding: 20px 35px;
     background-color: ;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
+    /*position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("./img/me.jpg");
-    background-size:contain
+    /*
+   /* background-image: url("./img/me.jpg");
+    background-size: cover
     background-attachment: fixed;
     background-position: 80%;
-    z-index: 9999;
+    z-index: 9999;  */
   }
 
 
   header h1 {
-    font-weight: bolder;
+   /* font-weight: bolder; */
     display: flex;
     justify-content: flex-start;
+    font-size: x-large;
+    display: block;
 
   }
 
     .name {
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+}
 
-        border-bottom: black 5px;
+    .namedes {
+      font-weight: bold;
+      font-size: large;
+    }
+
+.nav {
+  font-weight: bold;
+  display: flex;
 }
 
   nav ul {
     list-style-type:none
 
   }
+
+
+
+  .work {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-bottom: 10%;
+
+
+    
+    }
+
+    .work img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .samples {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-size: large;
+      padding: 5% 5% 5% 5%;
+    }
+    
+      .main-app { grid-area: 1 / 2 / 3 / 6; 
+        padding: 3% 3% 3% 3%;
+      }
+      .app-2 { grid-area: 3 / 2 / 5 / 4; 
+        padding: 3% 3% 3% 3%;
+      }
+      .app-3 {grid-area: 3 / 4 / 5 / 6; 
+        padding: 3% 3% 3% 3%;
+      }
+      .app-4 { grid-area: 5 / 2 / 7 / 4; 
+        padding: 3% 3% 3% 3%;
+      }
+      .app-5 { grid-area: 5 / 4 / 7 / 6; 
+        padding: 3% 3% 3% 3%;
+      }
+
+      
+      /*.article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 60%
+      } */
+
+      .article {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        text-align: center;
+        padding: 10%;
+        }
+
+        .article h2 {
+          align-items: center;
+        }
+        
+        .article div { grid-area: 2 / 2 / 5 / 5; 
+        
+        }
+
+        .contact {
+          text-align: center;
+
+        }
+
+        .contact ul {
+          text-align: center;
+          list-style-type: none;
+        }
+
+
+
+
+
+
+
+/*
+  .work {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 3.2fr 0.1fr 1fr 1fr; 
+    grid-template-rows: 1.9fr 0.1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". main-app . . ."
+      ". . . . ."
+      "app-2 . . app-3 ."
+      ". app-4 . . ."
+      ". app-5 . . ."; 
+    justify-content: center; 
+    justify-items: center; 
+    align-items: start; 
+  }
+  .main-app { grid-area: main-app; }
+  .app-2 { grid-area: app-2; }
+  .app-3 { grid-area: app-3; }
+  .app-4 { grid-area: app-4; }
+  .app-5 { grid-area: app-5; }
+
+
+ /* .work {
+    box-sizing: border-box;
+    border: 10px solid red;
+    padding: 20%;
+    display: grid
+
+  }
+
+   .main-app {
+    box-sizing: border-box;
+    border: 5px red;
+    align-items: center;
+    background-color: white;
+    border-style: solid;
+    grid-column: 1;
+    grid-row: 1;
+    
+  }
+
+  .app-2 {
+    box-sizing: border-box;
+    border: 5px red;
+    align-items: center;
+    background-color: white;
+    border-style: solid;
+    
+  }
+
+  .app-3 {
+    box-sizing: border-box;
+    border: 5px red;
+    align-items: center;
+    background-color: white;
+    border-style: solid;
+    padding: 10px
+    }  
+    
+    .app-4 {
+    box-sizing: border-box;
+    border: 5px red;
+    align-items: center;
+    background-color: white;
+    border-style: solid;
+    padding: 10px;
+    
+  }  
+  
+  .app-5 {
+    box-sizing: border-box;
+    border: 5px red;
+    align-items: center;
+    background-color: white;
+    border-style: solid;
+    
+  } 
+
+  /*
