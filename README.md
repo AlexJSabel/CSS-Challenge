@@ -6,3 +6,7 @@ All links are local link when you click on the sample image.
 
 Screen shot of the page:
 https://imgur.com/Vhf46d4
+
+
+Link to live site:
+https://alexjsabel.github.io/CSS-Challenge/
