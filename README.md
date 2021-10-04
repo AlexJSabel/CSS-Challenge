@@ -5,6 +5,4 @@ Portfolio page with recent picture, about me, contact me, and samples of previou
 All links are local link when you click on the sample image.
 
 Screen shot of the page:
-https://imgur.com/Vhf46d4'
-
-Page at: https://alexjsabel.github.io/CSS-Challenge/
+https://imgur.com/Vhf46d4

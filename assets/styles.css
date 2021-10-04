@@ -28,15 +28,7 @@ font-family: Helvetica, Arial, sans-serif;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /*position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    /*
-   /* background-image: url("./img/me.jpg");
-    background-size: cover
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;  */
+
   }
 
 
@@ -114,14 +106,6 @@ font-family: Helvetica, Arial, sans-serif;
         padding: 3% 3% 3% 3%;
       }
 
-      
-      /*.article {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-        height: 60%
-      } */
 
       .article {
         display: grid;
@@ -155,86 +139,3 @@ font-family: Helvetica, Arial, sans-serif;
 
 
 
-
-
-/*
-  .work {
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 1fr 3.2fr 0.1fr 1fr 1fr; 
-    grid-template-rows: 1.9fr 0.1fr 1fr 1fr 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      ". main-app . . ."
-      ". . . . ."
-      "app-2 . . app-3 ."
-      ". app-4 . . ."
-      ". app-5 . . ."; 
-    justify-content: center; 
-    justify-items: center; 
-    align-items: start; 
-  }
-  .main-app { grid-area: main-app; }
-  .app-2 { grid-area: app-2; }
-  .app-3 { grid-area: app-3; }
-  .app-4 { grid-area: app-4; }
-  .app-5 { grid-area: app-5; }
-
-
- /* .work {
-    box-sizing: border-box;
-    border: 10px solid red;
-    padding: 20%;
-    display: grid
-
-  }
-
-   .main-app {
-    box-sizing: border-box;
-    border: 5px red;
-    align-items: center;
-    background-color: white;
-    border-style: solid;
-    grid-column: 1;
-    grid-row: 1;
-    
-  }
-
-  .app-2 {
-    box-sizing: border-box;
-    border: 5px red;
-    align-items: center;
-    background-color: white;
-    border-style: solid;
-    
-  }
-
-  .app-3 {
-    box-sizing: border-box;
-    border: 5px red;
-    align-items: center;
-    background-color: white;
-    border-style: solid;
-    padding: 10px
-    }  
-    
-    .app-4 {
-    box-sizing: border-box;
-    border: 5px red;
-    align-items: center;
-    background-color: white;
-    border-style: solid;
-    padding: 10px;
-    
-  }  
-  
-  .app-5 {
-    box-sizing: border-box;
-    border: 5px red;
-    align-items: center;
-    background-color: white;
-    border-style: solid;
-    
-  } 
-
-  /*
